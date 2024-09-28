@@ -1,0 +1,39 @@
+﻿@model WebApp_Desafio_FrontEnd.ViewModels.DepartamentoViewModel
+
+@{
+    ViewData["Title"] = "Departamentos";
+}
+
+<div class="row mt-3">
+    &nbsp;
+</div>
+
+<div class="row mt-3">
+    <div class="col-lg-12">
+
+        <table class="table table-striped table-bordered table-hover" id="dataTables-Departamentos">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.ID)</th>
+                    <th>@Html.DisplayNameFor(model => model.Descricao)</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+@section styles
+    {
+    <link rel="stylesheet" href="~/lib/sweetalert2/sweetalert2.min.css" />
+}
+
+@section scripts
+    {
+    <!-- SweetAlert2 -->
+    <script src="~/lib/sweetalert2/sweetalert2.all.min.js"></script>
+
+    <script src="~/js/Departamentos/Listar.js" asp-append-version="true"></script>
+}
