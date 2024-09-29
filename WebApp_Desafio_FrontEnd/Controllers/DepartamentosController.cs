@@ -62,6 +62,30 @@ namespace WebApp_Desafio_FrontEnd.Controllers
             }
         }
 
+
+        [HttpPost]
+        public IActionResult Editar(DepartamentoViewModel departamentoVM)
+        {
+            try
+            {
+                var departamentosApiClient = new DepartamentosApiClient();
+                var realizadoComSucesso = departamentosApiClient.EditarDepartamento(departamentoVM);
+
+                if (realizadoComSucesso)
+                    return Ok(new ResponseViewModel(
+                                $"Departamento atualizado com sucesso!",
+                                AlertTypes.success,
+                                this.RouteData.Values["controller"].ToString(),
+                                nameof(this.Listar)));
+                else
+                    throw new ApplicationException($"Falha ao incluir o Departamento.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ResponseViewModel(ex));
+            }
+        }
+
         [HttpGet]
         public IActionResult Datatable()
         {

@@ -20,6 +20,7 @@ C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_D
 C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\WebApp_Desafio_FrontEnd.RazorCoreGenerate.cache
 C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\Razor\Views\Chamados\Cadastrar.cshtml.g.cs
 C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\Razor\Views\Chamados\Listar.cshtml.g.cs
+C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\Razor\Views\Departamentos\Cadastrar.cshtml.g.cs
 C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\Razor\Views\Departamentos\Listar.cshtml.g.cs
 C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
 C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
@@ -38,4 +39,3 @@ C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_D
 C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\WebApp_Desafio_FrontEnd.pdb
 C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\WebApp_Desafio_FrontEnd.genruntimeconfig.cache
 C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\WebApp_D.AB0E2FFF.Up2Date
-C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_FrontEnd\obj\Debug\netcoreapp2.1\Razor\Views\Departamentos\Cadastrar.cshtml.g.cs

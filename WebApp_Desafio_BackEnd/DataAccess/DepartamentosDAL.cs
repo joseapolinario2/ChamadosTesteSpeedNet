@@ -102,5 +102,28 @@ namespace WebApp_Desafio_BackEnd.DataAccess
 
             return (regsAfetados > 0);
         }
+
+        public bool EditarDepartamento(int ID, string Descricao)
+        {
+            int regsAfetados = -1;
+
+            using (SQLiteConnection dbConnection = new SQLiteConnection(CONNECTION_STRING))
+            {
+                using (SQLiteCommand dbCommand = dbConnection.CreateCommand())
+                {
+                    dbCommand.CommandText = $"UPDATE departamentos SET descricao = @Descricao WHERE ID = {ID}";
+
+                    dbConnection.Open();
+                    dbCommand.Parameters.AddWithValue("@Descricao", Descricao);
+
+                    regsAfetados = dbCommand.ExecuteNonQuery();
+                    dbConnection.Close();
+
+                }
+
+            }
+
+            return (regsAfetados > 0);
+        }
     }
 }

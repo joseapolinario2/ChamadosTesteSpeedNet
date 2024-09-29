@@ -28,5 +28,10 @@ namespace WebApp_Desafio_BackEnd.Business
         {
             return dal.ExcluirChamado(idChamado);
         }
+
+        public bool EditarChamado(int ID, string Assunto, string Solicitante, int IdDepartamento, DateTime DataAbertura)
+        {
+            return dal.EditarChamado(ID, Assunto, Solicitante, IdDepartamento, DataAbertura);
+        }
     }
 }

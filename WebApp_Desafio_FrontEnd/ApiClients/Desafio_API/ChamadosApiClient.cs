@@ -12,7 +12,7 @@ namespace WebApp_Desafio_FrontEnd.ApiClients.Desafio_API
         private const string chamadosObterUrl = "api/Chamados/Obter";
         private const string chamadosGravarUrl = "api/Chamados/Gravar";
         private const string chamadosExcluirUrl = "api/Chamados/Excluir";
-
+        private const string chamadosEditarUrl = "api/Chamados/Editar";
         private string desafioApiUrl = "https://localhost:44388/"; // Endereço API IIS-Express
 
         public ChamadosApiClient() : base()
@@ -88,6 +88,22 @@ namespace WebApp_Desafio_FrontEnd.ApiClients.Desafio_API
             };
 
             var response = base.Delete($"{desafioApiUrl}{chamadosExcluirUrl}", querys, headers);
+
+            base.EnsureSuccessStatusCode(response);
+
+            string json = base.ReadHttpWebResponseMessage(response);
+
+            return JsonConvert.DeserializeObject<bool>(json);
+        }
+
+        public bool EditarChamado(ChamadoViewModel chamado)
+        {
+            var headers = new Dictionary<string, object>()
+            {
+                { "TokenAutenticacao", tokenAutenticacao }
+            };
+
+            var response = base.Post($"{desafioApiUrl}{chamadosEditarUrl}", chamado, headers);
 
             base.EnsureSuccessStatusCode(response);
 

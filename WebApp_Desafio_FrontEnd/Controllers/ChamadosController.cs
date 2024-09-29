@@ -123,6 +123,30 @@ namespace WebApp_Desafio_FrontEnd.Controllers
             }
         }
 
+        [HttpPost]
+        public IActionResult Editar(ChamadoViewModel chamadoVM)
+        {
+            try
+            {
+                var chamadosApiClient = new ChamadosApiClient();
+                
+                var realizadoComSucesso = chamadosApiClient.EditarChamado(chamadoVM);
+
+                if (realizadoComSucesso)
+                    return Ok(new ResponseViewModel(
+                                $"Departamento atualizado com sucesso!",
+                                AlertTypes.success,
+                                this.RouteData.Values["controller"].ToString(),
+                                nameof(this.Listar)));
+                else
+                    throw new ApplicationException($"Falha ao incluir o Departamento.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ResponseViewModel(ex));
+            }
+        }
+
         [HttpDelete]
         public IActionResult Excluir([FromRoute] int id)
         {

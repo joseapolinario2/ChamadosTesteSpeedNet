@@ -186,5 +186,41 @@ namespace WebApp_Desafio_BackEnd.DataAccess
 
             return (regsAfetados > 0);
         }
+
+        public bool EditarChamado(int ID, string Assunto, string Solicitante, int IdDepartamento, DateTime DataAbertura)
+        {
+            int regsAfetados = -1;
+
+            using (SQLiteConnection dbConnection = new SQLiteConnection(CONNECTION_STRING))
+            {
+                using (SQLiteCommand dbCommand = dbConnection.CreateCommand())
+                {
+                   
+                        dbCommand.CommandText =
+                            "UPDATE chamados " +
+                            "SET Assunto=@Assunto, " +
+                            "    Solicitante=@Solicitante, " +
+                            "    IdDepartamento=@IdDepartamento, " +
+                            "    DataAbertura=@DataAbertura " +
+                            "WHERE ID=@ID ";
+                    
+
+                    dbCommand.Parameters.AddWithValue("@Assunto", Assunto);
+                    dbCommand.Parameters.AddWithValue("@Solicitante", Solicitante);
+                    dbCommand.Parameters.AddWithValue("@IdDepartamento", IdDepartamento);
+                    dbCommand.Parameters.AddWithValue("@DataAbertura", DataAbertura.ToString(ANSI_DATE_FORMAT));
+                    dbCommand.Parameters.AddWithValue("@ID", ID);
+
+                    dbConnection.Open();
+                    regsAfetados = dbCommand.ExecuteNonQuery();
+                    dbConnection.Close();
+                }
+
+            }
+
+            return (regsAfetados > 0);
+
+        }
+
     }
 }

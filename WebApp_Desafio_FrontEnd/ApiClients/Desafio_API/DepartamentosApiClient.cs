@@ -14,7 +14,7 @@ namespace WebApp_Desafio_FrontEnd.ApiClients.Desafio_API
 
         private string desafioApiUrl = "https://localhost:44388/"; // Endereço API IIS-Express
         private string departamentoExcluirUrl = "api/Departamentos/Excluir";
-
+        private string departamentosEditarUrl = "api/Departamentos/Editar";
 
         public DepartamentosApiClient() : base()
         {
@@ -29,6 +29,22 @@ namespace WebApp_Desafio_FrontEnd.ApiClients.Desafio_API
             };
 
             var response = base.Post($"{desafioApiUrl}{departamentosGravarUrl}", departamento, headers);
+
+            base.EnsureSuccessStatusCode(response);
+
+            string json = base.ReadHttpWebResponseMessage(response);
+
+            return JsonConvert.DeserializeObject<bool>(json);
+        }
+
+        public bool EditarDepartamento(DepartamentoViewModel departamento)
+        {
+            var headers = new Dictionary<string, object>()
+            {
+                { "TokenAutenticacao", tokenAutenticacao }
+            };
+
+            var response = base.Post($"{desafioApiUrl}{departamentosEditarUrl}", departamento, headers);
 
             base.EnsureSuccessStatusCode(response);
 
