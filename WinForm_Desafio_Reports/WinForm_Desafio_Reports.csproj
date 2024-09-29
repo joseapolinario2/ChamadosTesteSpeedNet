@@ -51,6 +51,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsChamados.xsd</DependentUpon>
     </Compile>
+    <Compile Include="dsDepartamentos.cs">
+      <DependentUpon>dsDepartamentos.xsd</DependentUpon>
+    </Compile>
     <Compile Include="dsDepartamentos.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
