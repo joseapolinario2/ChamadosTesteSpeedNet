@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using WebApp_Desafio_FrontEnd.ViewModels;
 
@@ -12,7 +13,7 @@ namespace WebApp_Desafio_FrontEnd.ApiClients.Desafio_API
         private const string departamentosGravarUrl = "api/Departamentos/Gravar";
 
         private string desafioApiUrl = "https://localhost:44388/"; // Endereço API IIS-Express
-
+        private string departamentoExcluirUrl = "api/Departamentos/Excluir";
 
 
         public DepartamentosApiClient() : base()
@@ -52,6 +53,27 @@ namespace WebApp_Desafio_FrontEnd.ApiClients.Desafio_API
             string json = base.ReadHttpWebResponseMessage(response);
 
             return JsonConvert.DeserializeObject<List<DepartamentoViewModel>>(json);
+        }
+
+        public bool DepartamentoExcluir(int idDepartamento)
+        {
+            var headers = new Dictionary<string, object>()
+            {
+                { "TokenAutenticacao", tokenAutenticacao }
+            };
+
+            var querys = new Dictionary<string, object>()
+            {
+                { "idDepartamento", idDepartamento }
+            };
+
+            var response = base.Delete($"{desafioApiUrl}{departamentoExcluirUrl}", querys, headers);
+
+            base.EnsureSuccessStatusCode(response);
+
+            string json = base.ReadHttpWebResponseMessage(response);
+
+            return JsonConvert.DeserializeObject<bool>(json);
         }
     }
 }

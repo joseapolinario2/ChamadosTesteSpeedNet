@@ -18,5 +18,9 @@ namespace WebApp_Desafio_BackEnd.Business
         {
             return dal.GravarDepartamento(ID, Descricao);
         }
+        public bool ExcluirDepartamento(int idDepartamento)
+        {
+            return dal.ExcluirDepartamento(idDepartamento);
+        }
     }
 }

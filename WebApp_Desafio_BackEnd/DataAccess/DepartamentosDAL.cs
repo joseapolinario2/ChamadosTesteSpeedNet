@@ -82,5 +82,25 @@ namespace WebApp_Desafio_BackEnd.DataAccess
             return (regsAfetados > 0);
         }
 
+        public bool ExcluirDepartamento(int idDepartamento)
+        {
+            int regsAfetados = -1;
+
+            using (SQLiteConnection dbConnection = new SQLiteConnection(CONNECTION_STRING))
+            {
+                using (SQLiteCommand dbCommand = dbConnection.CreateCommand())
+                {
+                    dbCommand.CommandText = $"DELETE FROM departamentos WHERE ID = {idDepartamento}";
+
+                    dbConnection.Open();
+                    regsAfetados = dbCommand.ExecuteNonQuery();
+                    dbConnection.Close();
+
+                }
+
+            }
+
+            return (regsAfetados > 0);
+        }
     }
 }

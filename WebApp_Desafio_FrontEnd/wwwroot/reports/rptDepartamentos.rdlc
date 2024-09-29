@@ -6,10 +6,10 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.56867cm</Width>
+              <Width>1.46283cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>7.2625cm</Width>
+              <Width>6.691cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -163,9 +163,9 @@
         </TablixRowHierarchy>
         <DataSetName>dsDepartamentos</DataSetName>
         <Top>0.59479cm</Top>
-        <Left>0.88053cm</Left>
+        <Left>1.3462cm</Left>
         <Height>1.2cm</Height>
-        <Width>8.83117cm</Width>
+        <Width>8.15383cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -325,9 +325,19 @@ Comercial: 0800 123 1184</Value>
         <DataSourceName>dsDepartamentos</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
+      <Fields>
+        <Field Name="ID">
+          <DataField>ID</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="Descricao">
+          <DataField>Descricao</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>dsDepartamentos</rd:DataSetName>
-        <rd:SchemaPath>E:\NETSPEED\PROJETOS\DOTNET\WinForms_Desafio_Desenvolvimento\WinForms_Desafio_Desenvolvimento\Relatorios\dsDepartamentos.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\desenv\WebApp_Desafio_Desenvolvimento\WebApp_Desafio_Desenvolvimento\WinForm_Desafio_Reports\dsDepartamentos.xsd</rd:SchemaPath>
         <rd:TableName>Table</rd:TableName>
       </rd:DataSetInfo>
     </DataSet>

@@ -84,6 +84,29 @@ namespace WebApp_Desafio_FrontEnd.Controllers
             }
         }
 
+        [HttpDelete]
+        public IActionResult Excluir([FromRoute] int id)
+        {
+            try
+            {
+                var departamentosApiClient = new DepartamentosApiClient();
+                var realizadoComSucesso = departamentosApiClient.DepartamentoExcluir(id);
+
+                if (realizadoComSucesso)
+                    return Ok(new ResponseViewModel(
+                                $"Departamento {id} excluído com sucesso!",
+                                AlertTypes.success,
+                                "Departamentos",
+                                nameof(Listar)));
+                else
+                    throw new ApplicationException($"Falha ao excluir o Chamado {id}.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ResponseViewModel(ex));
+            }
+        }
+
         [HttpGet]
         public IActionResult Report()
         {
