@@ -48,5 +48,39 @@ namespace WebApp_Desafio_BackEnd.DataAccess
 
             return lstDepartamentos;
         }
+        public bool GravarDepartamento(int ID, string Descricao)
+        {
+            int regsAfetados = -1;
+
+            using (SQLiteConnection dbConnection = new SQLiteConnection(CONNECTION_STRING))
+            {
+                using (SQLiteCommand dbCommand = dbConnection.CreateCommand())
+                {
+                    if (ID == 0)
+                    {
+                        dbCommand.CommandText =
+                            "INSERT INTO departamentos (Descricao)" +
+                            "VALUES (@Descricao)";
+                    }
+                    else
+                    {
+                        dbCommand.CommandText =
+                            "UPDATE departamentos " +
+                            "SET Descricao=@Descricao" +
+                            "WHERE ID=@ID ";
+                    }
+
+                    dbCommand.Parameters.AddWithValue("@Descricao", Descricao);
+
+                    dbConnection.Open();
+                    regsAfetados = dbCommand.ExecuteNonQuery();
+                    dbConnection.Close();
+                }
+
+            }
+
+            return (regsAfetados > 0);
+        }
+
     }
 }

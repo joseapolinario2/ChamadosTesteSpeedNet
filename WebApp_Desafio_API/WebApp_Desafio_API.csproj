@@ -5,6 +5,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <Platforms>AnyCPU;x86</Platforms>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <StartupObject>WebApp_Desafio_API.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

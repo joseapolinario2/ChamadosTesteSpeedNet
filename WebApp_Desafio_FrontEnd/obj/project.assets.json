@@ -13314,11 +13314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
+      "projectUniqueName": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
       "projectName": "WebApp_Desafio_FrontEnd",
-      "projectPath": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
+      "projectPath": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
       "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\obj\\",
+      "outputPath": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config",

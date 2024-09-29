@@ -1,38 +1,114 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\",
+  "WorkspaceRootPath": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\users\\josea\\downloads\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|solutionrelative:webapp_desafio_backend\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\views\\departamentos\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\views\\departamentos\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\users\\josea\\downloads\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\models\\chamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|solutionrelative:webapp_desafio_backend\\models\\chamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\views\\chamados\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\views\\chamados\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\users\\josea\\downloads\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\dataaccess\\departamentosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\wwwroot\\js\\chamados\\cadastrar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\wwwroot\\js\\chamados\\cadastrar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\wwwroot\\js\\departamentos\\cadastrar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\wwwroot\\js\\departamentos\\cadastrar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\views\\departamentos\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\views\\departamentos\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\wwwroot\\js\\departamentos\\listar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\wwwroot\\js\\departamentos\\listar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\wwwroot\\js\\chamados\\listar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\wwwroot\\js\\chamados\\listar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\apiclients\\desafio_api\\departamentosapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\apiclients\\desafio_api\\departamentosapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\dataaccess\\departamentosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|solutionrelative:webapp_desafio_backend\\dataaccess\\departamentosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\users\\josea\\downloads\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\dataaccess\\basedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|solutionrelative:webapp_desafio_backend\\dataaccess\\basedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\business\\departamentosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|solutionrelative:webapp_desafio_backend\\business\\departamentosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\users\\josea\\downloads\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\business\\chamadosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_api\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|solutionrelative:webapp_desafio_api\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\apiclients\\desafio_api\\chamadosapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\apiclients\\desafio_api\\chamadosapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_api\\viewmodels\\departamentorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|solutionrelative:webapp_desafio_api\\viewmodels\\departamentorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_api\\viewmodels\\chamadorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|solutionrelative:webapp_desafio_api\\viewmodels\\chamadorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\dataaccess\\chamadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|solutionrelative:webapp_desafio_backend\\dataaccess\\chamadosdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\business\\chamadosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|solutionrelative:webapp_desafio_backend\\business\\chamadosbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\users\\josea\\downloads\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_api\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|solutionrelative:webapp_desafio_api\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\views\\chamados\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\views\\chamados\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\users\\josea\\downloads\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\webapp_desafio_frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\webapp_desafio_frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\viewmodels\\departamentoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\viewmodels\\departamentoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|c:\\users\\josea\\downloads\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|solutionrelative:webapp_desafio_api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_backend\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184A5B88-1CAF-4F2B-B356-3028015FD8BC}|WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj|solutionrelative:webapp_desafio_backend\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_api\\webapp_desafio_api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0F4F1E33-1AA9-4E85-AE27-F889AD0FC17F}|WebApp_Desafio_API\\WebApp_Desafio_API.csproj|solutionrelative:webapp_desafio_api\\webapp_desafio_api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|c:\\desenv\\webapp_desafio_desenvolvimento\\webapp_desafio_desenvolvimento\\webapp_desafio_frontend\\webapp_desafio_frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0EC2C225-DB8F-4354-AC1E-7DB08F027946}|WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj|solutionrelative:webapp_desafio_frontend\\webapp_desafio_frontend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,106 +126,352 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DepartamentosDAL.cs",
-              "DocumentMoniker": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\DataAccess\\DepartamentosDAL.cs",
-              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\DataAccess\\DepartamentosDAL.cs",
-              "ToolTip": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\DataAccess\\DepartamentosDAL.cs",
-              "RelativeToolTip": "WebApp_Desafio_BackEnd\\DataAccess\\DepartamentosDAL.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T18:47:23.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseDAL.cs",
-              "DocumentMoniker": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\DataAccess\\BaseDAL.cs",
-              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\DataAccess\\BaseDAL.cs",
-              "ToolTip": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\DataAccess\\BaseDAL.cs",
-              "RelativeToolTip": "WebApp_Desafio_BackEnd\\DataAccess\\BaseDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T18:47:22.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Chamado.cs",
-              "DocumentMoniker": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Models\\Chamado.cs",
-              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\Models\\Chamado.cs",
-              "ToolTip": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Models\\Chamado.cs",
-              "RelativeToolTip": "WebApp_Desafio_BackEnd\\Models\\Chamado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T18:47:17.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChamadosBLL.cs",
-              "DocumentMoniker": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Business\\ChamadosBLL.cs",
-              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\Business\\ChamadosBLL.cs",
-              "ToolTip": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Business\\ChamadosBLL.cs",
-              "RelativeToolTip": "WebApp_Desafio_BackEnd\\Business\\ChamadosBLL.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T18:45:28.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Departamento.cs",
-              "DocumentMoniker": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Models\\Departamento.cs",
-              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\Models\\Departamento.cs",
-              "ToolTip": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Models\\Departamento.cs",
-              "RelativeToolTip": "WebApp_Desafio_BackEnd\\Models\\Departamento.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T18:44:59.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Startup.cs",
-              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Startup.cs",
-              "ToolTip": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Startup.cs",
-              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Startup.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAADUAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T18:41:49.5Z",
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Views\\Departamentos\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Views\\Departamentos\\Cadastrar.cshtml",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Views\\Departamentos\\Cadastrar.cshtml",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Views\\Departamentos\\Cadastrar.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T20:46:33.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "WebApp_Desafio_FrontEnd",
-              "DocumentMoniker": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
-              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
-              "ToolTip": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
-              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Program.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Program.cs",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:00:36.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartamentosDAL.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\DataAccess\\DepartamentosDAL.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\DataAccess\\DepartamentosDAL.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\DataAccess\\DepartamentosDAL.cs",
+              "RelativeToolTip": "WebApp_Desafio_BackEnd\\DataAccess\\DepartamentosDAL.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAzwDsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:39:38.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Views\\Departamentos\\Listar.cshtml",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Views\\Departamentos\\Listar.cshtml",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Views\\Departamentos\\Listar.cshtml",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Views\\Departamentos\\Listar.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAlwDkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T19:34:49.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cadastrar.js",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\wwwroot\\js\\Departamentos\\Cadastrar.js",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\wwwroot\\js\\Departamentos\\Cadastrar.js",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\wwwroot\\js\\Departamentos\\Cadastrar.js",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\wwwroot\\js\\Departamentos\\Cadastrar.js",
+              "ViewState": "AQIAACIAAAAAAAAAAAAhwDAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-28T20:56:25.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartamentosController.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Controllers\\DepartamentosController.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Controllers\\DepartamentosController.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Controllers\\DepartamentosController.cs",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Controllers\\DepartamentosController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:46:39.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cadastrar.js",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\wwwroot\\js\\Chamados\\Cadastrar.js",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\wwwroot\\js\\Chamados\\Cadastrar.js",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\wwwroot\\js\\Chamados\\Cadastrar.js",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\wwwroot\\js\\Chamados\\Cadastrar.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-28T18:41:46.968Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-29T13:03:18.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Views\\Chamados\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Views\\Chamados\\Cadastrar.cshtml",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Views\\Chamados\\Cadastrar.cshtml",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Views\\Chamados\\Cadastrar.cshtml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAQwFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T19:33:38.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Listar.js",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\wwwroot\\js\\Chamados\\Listar.js",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\wwwroot\\js\\Chamados\\Listar.js",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\wwwroot\\js\\Chamados\\Listar.js",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\wwwroot\\js\\Chamados\\Listar.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-28T20:55:52.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\Startup.cs",
-              "RelativeDocumentMoniker": "WebApp_Desafio_API\\Startup.cs",
-              "ToolTip": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\Startup.cs",
-              "RelativeToolTip": "WebApp_Desafio_API\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Title": "Listar.js",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\wwwroot\\js\\Departamentos\\Listar.js",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\wwwroot\\js\\Departamentos\\Listar.js",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\wwwroot\\js\\Departamentos\\Listar.js",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\wwwroot\\js\\Departamentos\\Listar.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-28T20:57:42.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DepartamentosBLL.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Business\\DepartamentosBLL.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\Business\\DepartamentosBLL.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Business\\DepartamentosBLL.cs",
+              "RelativeToolTip": "WebApp_Desafio_BackEnd\\Business\\DepartamentosBLL.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAawBIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T18:12:44.692Z",
+              "WhenOpened": "2024-09-28T21:38:54.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChamadosController.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Controllers\\ChamadosController.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Controllers\\ChamadosController.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Controllers\\ChamadosController.cs",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Controllers\\ChamadosController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAF0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:46:45.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepartamentosApiClient.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\ApiClients\\Desafio_API\\DepartamentosApiClient.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\ApiClients\\Desafio_API\\DepartamentosApiClient.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\ApiClients\\Desafio_API\\DepartamentosApiClient.cs",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\ApiClients\\Desafio_API\\DepartamentosApiClient.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:00:56.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:41:45.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartamentosController.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\Controllers\\DepartamentosController.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_API\\Controllers\\DepartamentosController.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\Controllers\\DepartamentosController.cs",
+              "RelativeToolTip": "WebApp_Desafio_API\\Controllers\\DepartamentosController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwCEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:37:46.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChamadosApiClient.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\ApiClients\\Desafio_API\\ChamadosApiClient.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\ApiClients\\Desafio_API\\ChamadosApiClient.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\ApiClients\\Desafio_API\\ChamadosApiClient.cs",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\ApiClients\\Desafio_API\\ChamadosApiClient.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAhwEQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:08:49.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DepartamentoRequest.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\ViewModels\\DepartamentoRequest.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_API\\ViewModels\\DepartamentoRequest.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\ViewModels\\DepartamentoRequest.cs",
+              "RelativeToolTip": "WebApp_Desafio_API\\ViewModels\\DepartamentoRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:47:01.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChamadosDAL.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\DataAccess\\ChamadosDAL.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\DataAccess\\ChamadosDAL.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\DataAccess\\ChamadosDAL.cs",
+              "RelativeToolTip": "WebApp_Desafio_BackEnd\\DataAccess\\ChamadosDAL.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAIAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:40:23.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChamadoRequest.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\ViewModels\\ChamadoRequest.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_API\\ViewModels\\ChamadoRequest.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\ViewModels\\ChamadoRequest.cs",
+              "RelativeToolTip": "WebApp_Desafio_API\\ViewModels\\ChamadoRequest.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:46:15.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChamadosBLL.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Business\\ChamadosBLL.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\Business\\ChamadosBLL.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Business\\ChamadosBLL.cs",
+              "RelativeToolTip": "WebApp_Desafio_BackEnd\\Business\\ChamadosBLL.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:39:23.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChamadosController.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\Controllers\\ChamadosController.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_API\\Controllers\\ChamadosController.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\Controllers\\ChamadosController.cs",
+              "RelativeToolTip": "WebApp_Desafio_API\\Controllers\\ChamadosController.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAQwI0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:38:00.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WebApp_Desafio_FrontEnd",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\WebApp_Desafio_FrontEnd.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-28T19:13:15.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DepartamentoViewModel.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\ViewModels\\DepartamentoViewModel.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\ViewModels\\DepartamentoViewModel.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\ViewModels\\DepartamentoViewModel.cs",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\ViewModels\\DepartamentoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:49:19.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Startup.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Startup.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Startup.cs",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Startup.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:00:24.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Views\\Chamados\\Listar.cshtml",
+              "RelativeDocumentMoniker": "WebApp_Desafio_FrontEnd\\Views\\Chamados\\Listar.cshtml",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_FrontEnd\\Views\\Chamados\\Listar.cshtml",
+              "RelativeToolTip": "WebApp_Desafio_FrontEnd\\Views\\Chamados\\Listar.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAlwDgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T19:34:29.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Models\\Departamento.cs",
+              "RelativeDocumentMoniker": "WebApp_Desafio_BackEnd\\Models\\Departamento.cs",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\Models\\Departamento.cs",
+              "RelativeToolTip": "WebApp_Desafio_BackEnd\\Models\\Departamento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:42:19.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WebApp_Desafio_API",
+              "DocumentMoniker": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\WebApp_Desafio_API.csproj",
+              "RelativeDocumentMoniker": "WebApp_Desafio_API\\WebApp_Desafio_API.csproj",
+              "ToolTip": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\WebApp_Desafio_API.csproj",
+              "RelativeToolTip": "WebApp_Desafio_API\\WebApp_Desafio_API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-28T19:13:40.702Z",
               "EditorCaption": ""
             }
           ]

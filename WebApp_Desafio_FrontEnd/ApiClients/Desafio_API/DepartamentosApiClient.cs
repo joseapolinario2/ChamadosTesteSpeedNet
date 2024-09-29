@@ -9,12 +9,31 @@ namespace WebApp_Desafio_FrontEnd.ApiClients.Desafio_API
         private const string tokenAutenticacao = "AEEFC184-9F62-4B3E-BB93-BE42BF0FFA36";
 
         private const string departamentosListUrl = "api/Departamentos/Listar";
+        private const string departamentosGravarUrl = "api/Departamentos/Gravar";
 
         private string desafioApiUrl = "https://localhost:44388/"; // Endereço API IIS-Express
+
+
 
         public DepartamentosApiClient() : base()
         {
             //TODO
+        }
+
+        public bool GravarDepartamento(DepartamentoViewModel departamento)
+        {
+            var headers = new Dictionary<string, object>()
+            {
+                { "TokenAutenticacao", tokenAutenticacao }
+            };
+
+            var response = base.Post($"{desafioApiUrl}{departamentosGravarUrl}", departamento, headers);
+
+            base.EnsureSuccessStatusCode(response);
+
+            string json = base.ReadHttpWebResponseMessage(response);
+
+            return JsonConvert.DeserializeObject<bool>(json);
         }
 
         public List<DepartamentoViewModel> DepartamentosListar()

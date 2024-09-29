@@ -154,6 +154,11 @@
             Data de Abertura do Chamado
             </summary>
         </member>
+        <member name="P:WebApp_Desafio_API.ViewModels.DepartamentoRequest.descricao">
+            <summary>
+            Assunto do Chamado
+            </summary>
+        </member>
         <member name="T:WebApp_Desafio_API.ViewModels.DepartamentoResponse">
             <summary>
             Resposta da chamada

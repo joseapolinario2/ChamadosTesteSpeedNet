@@ -17,6 +17,39 @@ namespace WebApp_Desafio_API.Controllers
     {
         private DepartamentosBLL bll = new DepartamentosBLL();
 
+
+        [HttpPost]
+        [ProducesResponseType(typeof(bool), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
+        [Route("Gravar")]
+        public IActionResult Gravar([FromBody] DepartamentoRequest request)
+        {
+            try
+            {
+                if (request == null)
+                    throw new ArgumentNullException("Request não informado.");
+
+                var resultado = this.bll.GravarDepartamento(request.id,
+                                                       request.descricao);
+
+                return Ok(resultado);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (ApplicationException ex)
+            {
+                return StatusCode(422, ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
         /// <summary>
         /// Lista todos os departamento
         /// </summary>

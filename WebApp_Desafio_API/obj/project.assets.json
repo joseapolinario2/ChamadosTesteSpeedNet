@@ -15037,11 +15037,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\WebApp_Desafio_API.csproj",
+      "projectUniqueName": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\WebApp_Desafio_API.csproj",
       "projectName": "WebApp_Desafio_API",
-      "projectPath": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\WebApp_Desafio_API.csproj",
+      "projectPath": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\WebApp_Desafio_API.csproj",
       "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\obj\\",
+      "outputPath": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -15058,8 +15058,8 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj": {
-              "projectPath": "C:\\Users\\josea\\Downloads\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj"
+            "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj": {
+              "projectPath": "C:\\desenv\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_Desenvolvimento\\WebApp_Desafio_BackEnd\\WebApp_Desafio_BackEnd.csproj"
             }
           }
         }

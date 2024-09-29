@@ -14,4 +14,8 @@
         ],
     });
 
+
+    $('#btnAdicionar').click(function () {
+        window.location.href = config.contextPath + 'Departamentos/Cadastrar';
+    });
 });
