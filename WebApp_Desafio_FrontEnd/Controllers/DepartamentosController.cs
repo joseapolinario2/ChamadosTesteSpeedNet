@@ -8,6 +8,8 @@ using System.IO;
 using WebApp_Desafio_FrontEnd.ApiClients.Desafio_API;
 using WebApp_Desafio_FrontEnd.ViewModels;
 using WebApp_Desafio_FrontEnd.ViewModels.Enums;
+using Newtonsoft.Json;
+using System.Linq;
 
 namespace WebApp_Desafio_FrontEnd.Controllers
 {
@@ -44,6 +46,19 @@ namespace WebApp_Desafio_FrontEnd.Controllers
         {
             try
             {
+                var mensagensDeErro = new List<string>();
+
+                if (!ModelState.IsValid)
+                {
+                    foreach (var erro in ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        mensagensDeErro.Add(erro.ErrorMessage);
+                    }
+
+                    // ViewBag.MensagensDeErro = mensagensDeErro;
+                    throw new ApplicationException(JsonConvert.SerializeObject(mensagensDeErro));
+
+                }
                 var departamentosApiClient = new DepartamentosApiClient();
                 var realizadoComSucesso = departamentosApiClient.GravarDepartamento(departamentoVM);
 

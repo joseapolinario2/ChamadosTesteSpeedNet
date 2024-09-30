@@ -53,11 +53,10 @@
 
             },
             error: function (result) {
-
-                Swal.fire({
-                    text: result,
-                    confirmButtonText: 'OK',
-                    icon: 'error'
+                mensagensValidacao = JSON.parse(result.responseJSON.Message);
+                $('#mensagens').empty();
+                mensagensValidacao.forEach(function (mensagem) {
+                    $('#mensagens').append("<li style='color: red'>" + mensagem + "</li>");
                 });
 
             },

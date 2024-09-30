@@ -150,7 +150,7 @@ namespace WebApp_Desafio_API.Controllers
         [ProducesResponseType(typeof(string), StatusCodes.Status403Forbidden)]
         [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
         [Route("Excluir")]
-        public IActionResult Excluir([FromRoute] int idChamado)
+        public IActionResult Excluir([FromQuery] int idChamado)
         {
             try
             {

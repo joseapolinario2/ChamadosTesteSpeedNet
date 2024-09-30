@@ -9,6 +9,8 @@ using WebApp_Desafio_FrontEnd.ViewModels;
 using WebApp_Desafio_FrontEnd.ViewModels.Enums;
 using AspNetCore.Reporting;
 using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure;
+using System.ComponentModel.DataAnnotations;
+using Newtonsoft.Json;
 
 namespace WebApp_Desafio_FrontEnd.Controllers
 {
@@ -79,11 +81,26 @@ namespace WebApp_Desafio_FrontEnd.Controllers
             return View("Cadastrar", chamadoVM);
         }
 
+       
         [HttpPost]
         public IActionResult Cadastrar(ChamadoViewModel chamadoVM)
         {
             try
             {
+                var mensagensDeErro = new List<string>();
+
+                if (!ModelState.IsValid)
+                {
+                    foreach (var erro in ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        mensagensDeErro.Add(erro.ErrorMessage);
+                    }
+
+                    // ViewBag.MensagensDeErro = mensagensDeErro;
+                    throw new ApplicationException(JsonConvert.SerializeObject(mensagensDeErro));
+
+                }
+
                 var chamadosApiClient = new ChamadosApiClient();
                 var realizadoComSucesso = chamadosApiClient.ChamadoGravar(chamadoVM);
 
@@ -128,6 +145,13 @@ namespace WebApp_Desafio_FrontEnd.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    // Retornar a view com os erros de validação
+                    return View(chamadoVM);
+                }
+
+
                 var chamadosApiClient = new ChamadosApiClient();
                 
                 var realizadoComSucesso = chamadosApiClient.EditarChamado(chamadoVM);

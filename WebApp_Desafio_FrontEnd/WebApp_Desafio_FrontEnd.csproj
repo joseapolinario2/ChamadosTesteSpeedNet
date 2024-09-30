@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Chamados\Editar.cshtml" />
+    <Content Remove="wwwroot\js\chamados\Listar.js" />
     <Content Remove="wwwroot\reports\rptDepartamentos.rdlc" />
   </ItemGroup>
 
@@ -24,6 +26,10 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\lib\bootstrap-datepicker\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\chamados\Listar.js" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+$(document).ready(function () {
 
     var table = $('#dataTables-Chamados').DataTable({
         paging: false,
@@ -80,46 +80,32 @@
                         }
                     });
                 } else {
-                    console.log("Cancelou a exclusão.");
+                    console.log("Cancelou a exclus�o.");
                 }
 
             });
         }
     });
+
     // Funcionalidade de editar com dbclick
-    
-    // Variável global para armazenar a linha que está sendo editada
+
     let selectedRow = null;
-    // Variáveis para armazenar os valores originais dos campos
     let originalAssunto = null;
     let originalSolicitante = null;
     let originalDepartamento = null;
     let originalDataAbertura = null;
-
-    // Função para finalizar a edição atual, restaurando os valores originais se necessário
     function finalizarEdicaoAtual() {
         if (selectedRow) {
-            // Restaurar os valores originais
             selectedRow.find('td:eq(1)').html(originalAssunto);
             selectedRow.find('td:eq(2)').html(originalSolicitante);
             selectedRow.find('td:eq(3)').html(originalDepartamento);
             selectedRow.find('td:eq(4)').html(originalDataAbertura);
-
-            // Remove a classe de edição
             selectedRow.removeClass('editing');
-
-            // Remove os botões "Salvar" e "Cancelar"
             selectedRow.find('td:last').find('#btnSalvarEd, #btnCancelar').remove();
-
-            // Reseta a variável para null, indicando que não há mais linha em edição
             selectedRow = null;
         }
     }
 
-    
-
-
-    // Evento de duplo clique na tabela para ativar o modo de edição
     $('#dataTables-Chamados tbody').on('dblclick', 'tr', function () {
         finalizarEdicaoAtual();
 
@@ -130,7 +116,6 @@
 
         selectedRow.addClass('editing');
 
-        // Armazenar os valores originais antes de transformar em inputs
         originalAssunto = selectedRow.find('td:eq(1)').text();
         originalSolicitante = selectedRow.find('td:eq(2)').text();
         originalDepartamento = selectedRow.find('td:eq(3)').text();
@@ -149,17 +134,15 @@
                 });
             },
             error: function () {
-                console.log('Erro!', 'Não foi possível carregar os departamentos.', 'error');
+                console.log('Erro!', 'N�o foi poss�vel carregar os departamentos.', 'error');
             }
         });
 
-        // Transformar as células da linha em campos de edição
         selectedRow.find('td:eq(1)').html(`<input type="text" class="form-control" value="${originalAssunto}" />`);
         selectedRow.find('td:eq(2)').html(`<input type="text" class="form-control" value="${originalSolicitante}" />`);
         selectedRow.find('td:eq(3)').html(`<select id='slcDepartamento' class="form-control" id="selectDepartamento">${optionsHtml}</select>`);
         selectedRow.find('td:eq(4)').html(`<input type="text" class="form-control" value="${originalDataAbertura}" />`);
 
-        // Adicionar botões "Salvar" e "Cancelar"
         selectedRow.find('td:eq(4)').append(`
         <button type="button" class="btn btn-success btn-sm" id="btnSalvarEd">Salvar</button>
         <button type="button" class="btn btn-danger btn-sm ml-2" id="btnCancelar">Cancelar</button>`);
@@ -194,14 +177,12 @@
                     selectedRow = null;
                 },
                 error: function () {
-                    Swal.fire('Erro!', 'Não foi possível salvar a edição.', 'error');
+                    Swal.fire('Erro!', 'N�o foi poss�vel salvar a edi��o.', 'error');
                 }
             });
         });
-
-        // Evento de clique no botão "Cancelar"
         $('#btnCancelar').on('click', function () {
-            // Restaurar os valores originais ao cancelar a edição
+            // Restaurar os valores originais ao cancelar a edi��o
             finalizarEdicaoAtual();
         });
     });
