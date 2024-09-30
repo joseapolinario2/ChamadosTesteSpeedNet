@@ -6,7 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Chamados\Editar.cshtml" />
+    <Compile Remove="Validacao\**" />
+    <Content Remove="Validacao\**" />
+    <EmbeddedResource Remove="Validacao\**" />
+    <None Remove="Validacao\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="wwwroot\js\chamados\Listar.js" />
     <Content Remove="wwwroot\reports\rptDepartamentos.rdlc" />
   </ItemGroup>

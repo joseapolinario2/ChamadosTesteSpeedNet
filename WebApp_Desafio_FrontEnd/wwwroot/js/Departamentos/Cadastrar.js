@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
 
-    /*$('.glyphicon-calendar').closest("div.date").datepicker({
+    $('.glyphicon-calendar').closest("div.date").datepicker({
         todayBtn: "linked",
         keyboardNavigation: false,
         forceParse: false,
@@ -8,7 +8,7 @@
         format: 'dd/mm/yyyy',
         autoclose: true,
         language: 'pt-BR'
-    });*/
+    });
 
     $('#btnCancelar').click(function () {
         Swal.fire({

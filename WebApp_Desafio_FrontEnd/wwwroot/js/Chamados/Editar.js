@@ -1,61 +1,45 @@
 ﻿$(document).ready(function () {
+    $('.glyphicon-calendar').closest("div.date").datepicker({
+        todayBtn: "linked",
+        keyboardNavigation: false,
+        forceParse: false,
+        calendarWeeks: false,
+        format: 'dd/mm/yyyy',
+        autoclose: true,
+        language: 'pt-BR'
+    });
 
+    $('#btnSalvar').on('click', function () {
+        let dadosChamado = SerielizeForm($('#form'));
 
-    
-    // Funcionalidade de editar com dbclick
-    
-    let selectedRow = null;
-    let originalAssunto = null;
-    let originalSolicitante = null;
-    let originalDepartamento = null;
-    let originalDataAbertura = null;
-    function finalizarEdicaoAtual() {
-        if (selectedRow) {
-            selectedRow.find('td:eq(1)').html(originalAssunto);
-            selectedRow.find('td:eq(2)').html(originalSolicitante);
-            selectedRow.find('td:eq(3)').html(originalDepartamento);
-            selectedRow.find('td:eq(4)').html(originalDataAbertura);
-            selectedRow.removeClass('editing');
-            selectedRow.find('td:last').find('#btnSalvarEd, #btnCancelar').remove();
-            selectedRow = null;
-        }
-    }
-
-    $('#dataTables-Chamados tbody').on('dblclick', 'tr', function () {
-        $('#btnSalvar').on('click', function () {
-            let dadosChamado = {
-                ID: selectedRow.find('td:eq(0)').text(),
-                Assunto: selectedRow.find('td:eq(1) input').val(),
-                Solicitante: selectedRow.find('td:eq(2) input').val(),
-                Departamento: selectedRow.find('td:eq(3) select option:selected').text(),
-                IdDepartamento: selectedRow.find('td:eq(3) select').val(),
-                DataAbertura: selectedRow.find('td:eq(4) input').val()
-            };
-
-            $.ajax({
-                url: 'Editar',
-                type: 'POST',
-                data: dadosChamado,
-                success: function (response) {
-                    Swal.fire('Sucesso!', response.message, 'success');
-
-                    selectedRow.find('td:eq(1)').html(dadosChamado.Assunto);
-                    selectedRow.find('td:eq(2)').html(dadosChamado.Solicitante);
-                    selectedRow.find('td:eq(3)').html(dadosChamado.Departamento);
-                    selectedRow.find('td:eq(4)').html(dadosChamado.DataAbertura);
-
-                    selectedRow.removeClass('editing');
-                    selectedRow.find('td:last').find('#btnSalvarEd, #btnCancelar').remove();
-                    selectedRow = null;
-                },
-                error: function () {
-                    Swal.fire('Erro!', 'Não foi possível salvar a edição.', 'error');
-                }
-            });
+        $.ajax({
+            url: 'Editar',
+            type: 'POST',
+            data: dadosChamado,
+            success: function (response) {
+                Swal.fire('Sucesso!', response.message, 'success');
+            },
+            error: function (result) {
+                mensagensValidacao = JSON.parse(result.responseJSON.Message);
+                $('#mensagens').empty();
+                mensagensValidacao.forEach(function (mensagem) {
+                    $('#mensagens').append("<li style='color: red'>" + mensagem + "</li>");
+                });''
+            }
         });
-        $('#btnCancelar').on('click', function () {
-            // Restaurar os valores originais ao cancelar a edição
-            finalizarEdicaoAtual();
+    });
+
+    $('#btnCancelar').click(function () {
+        Swal.fire({
+            html: "Deseja cancelar essa operação? O registro não será salvo.",
+            type: "warning",
+            showCancelButton: true,
+        }).then(function (result) {
+            if (result.value) {
+                history.back();
+            } else {
+                console.log("Cancelou a inclusão.");
+            }
         });
     });
 

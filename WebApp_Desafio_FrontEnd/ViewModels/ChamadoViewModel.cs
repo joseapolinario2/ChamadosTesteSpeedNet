@@ -2,7 +2,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Runtime.Serialization;
-using WebApp_Desafio_FrontEnd.Validacao;
 
 namespace WebApp_Desafio_FrontEnd.ViewModels
 {
@@ -40,15 +39,15 @@ namespace WebApp_Desafio_FrontEnd.ViewModels
         [Display(Name = "Data de Abertura")]
         [DataMember(Name = "DataAbertura")]
         [Required(ErrorMessage = "A data de abertura é obrigatória.")]
-        [DataType(DataType.Date)]
-        public DateTime DataAbertura { get; set; }
+        [DataType(DataType.Date, ErrorMessage = "A data de abertura deve ser uma data válida.")]
+        public DateTime? DataAbertura { get; set; }
 
         [DataMember(Name = "DataAberturaWrapper")]
         public string DataAberturaWrapper
         {
             get
             {
-                return DataAbertura.ToString("d", ptBR);
+                return DataAbertura?.ToString("d", ptBR);
             }
             set
             {

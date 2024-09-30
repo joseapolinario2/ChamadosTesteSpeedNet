@@ -11,6 +11,7 @@ using AspNetCore.Reporting;
 using Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure;
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace WebApp_Desafio_FrontEnd.Controllers
 {
@@ -94,12 +95,21 @@ namespace WebApp_Desafio_FrontEnd.Controllers
                     foreach (var erro in ModelState.Values.SelectMany(v => v.Errors))
                     {
                         mensagensDeErro.Add(erro.ErrorMessage);
+
                     }
 
                     // ViewBag.MensagensDeErro = mensagensDeErro;
                     throw new ApplicationException(JsonConvert.SerializeObject(mensagensDeErro));
 
                 }
+
+                
+                if(chamadoVM.DataAbertura < DateTime.Today)
+                {
+                    mensagensDeErro.Add("Não é possível abrir chamado para data retroativa.");
+                    throw new ApplicationException(JsonConvert.SerializeObject(mensagensDeErro));
+                }
+
 
                 var chamadosApiClient = new ChamadosApiClient();
                 var realizadoComSucesso = chamadosApiClient.ChamadoGravar(chamadoVM);
@@ -122,7 +132,7 @@ namespace WebApp_Desafio_FrontEnd.Controllers
         [HttpGet]
         public IActionResult Editar([FromRoute] int id)
         {
-            ViewData["Title"] = "Cadastrar Novo Chamado";
+            ViewData["Title"] = "Editar Chamado";
 
             try
             {
@@ -132,7 +142,7 @@ namespace WebApp_Desafio_FrontEnd.Controllers
                 var departamentosApiClient = new DepartamentosApiClient();
                 ViewData["ListaDepartamentos"] = departamentosApiClient.DepartamentosListar();
 
-                return View("Cadastrar", chamadoVM);
+                return View("Editar", chamadoVM);
             }
             catch (Exception ex)
             {
@@ -145,12 +155,20 @@ namespace WebApp_Desafio_FrontEnd.Controllers
         {
             try
             {
+                var mensagensDeErro = new List<string>();
+
                 if (!ModelState.IsValid)
                 {
-                    // Retornar a view com os erros de validação
-                    return View(chamadoVM);
-                }
+                    foreach (var erro in ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        mensagensDeErro.Add(erro.ErrorMessage);
 
+                    }
+
+                    // ViewBag.MensagensDeErro = mensagensDeErro;
+                    throw new ApplicationException(JsonConvert.SerializeObject(mensagensDeErro));
+
+                }
 
                 var chamadosApiClient = new ChamadosApiClient();
                 
